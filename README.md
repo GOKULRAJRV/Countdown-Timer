@@ -9,3 +9,8 @@ How to Use:
 Enter a time (hours, minutes, seconds).
 Click START to begin the countdown.
 Click STOP to pause and RESET to restart.
+
+![image](https://github.com/user-attachments/assets/dd69466d-4ee5-4437-aa0d-cd3c8549d120)
+![image](https://github.com/user-attachments/assets/76140622-b83d-4646-b2d6-e944fe4534c2)
+
+
