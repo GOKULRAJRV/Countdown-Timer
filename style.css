@@ -1,0 +1,109 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        
+        html, body {
+            height: 100%;
+            background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .countdown-timer {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .time-input {
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .time-input input {
+            padding: 0.5rem;
+            font-size: 1rem;
+            text-align: center;
+            width: 4rem;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        .time-display {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            color: #333;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        .btns {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #e55d87, #5fc3e4);
+        }
+        
+        .btn:active {
+            transform: scale(0.95);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 614px) {
+            .btns {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        
+            .btn {
+                padding: 0.8rem 2rem;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .time-display {
+                font-size: 1.8rem;
+            }
+        }
+
+        .message {
+            font-size: 1.5rem;
+            color: rgb(209, 37, 6);
+            margin-top: 20px;
+            font-weight: bold;
+        }
+ 
